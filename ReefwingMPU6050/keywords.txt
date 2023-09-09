@@ -1,0 +1,92 @@
+#######################################
+# IDE Map for Reefwing MPU6050
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ClockSource KEYWORD1
+GyroScale   KEYWORD1
+AccelScale  KEYWORD1
+OnDelay KEYWORD1
+HighPassFilter  KEYWORD1
+LowPassFilter   KEYWORD1
+BiasOffsets KEYWORD1
+Activites   KEYWORD1
+SensorData  KEYWORD1
+TempData    KEYWORD1
+InertialMessage KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin  KEYWORD2
+connected   KEYWORD2
+dataAvailable   KEYWORD2
+updateSensorData    KEYWORD2
+setClockSource  KEYWORD2
+setScale    KEYWORD2
+setRange    KEYWORD2
+getClockSource  KEYWORD2
+getScale    KEYWORD2
+getRange    KEYWORD2
+setDHPFMode KEYWORD2
+setDLPFMode KEYWORD2
+getAccelPowerOnDelay    KEYWORD2
+setAccelPowerOnDelay    KEYWORD2
+getIntStatus    KEYWORD2
+getIntZeroMotionEnabled KEYWORD2
+setIntZeroMotionEnabled KEYWORD2
+getIntMotionEnabled KEYWORD2
+setIntMotionEnabled KEYWORD2
+getIntFreeFallEnabled   KEYWORD2
+setIntFreeFallEnabled   KEYWORD2
+getMotionDetectionThreshold KEYWORD2
+setMotionDetectionThreshold KEYWORD2
+getMotionDetectionDuration  KEYWORD2
+setMotionDetectionDuration  KEYWORD2
+getZeroMotionDetectionThreshold KEYWORD2
+setZeroMotionDetectionThreshold KEYWORD2
+getZeroMotionDetectionDuration  KEYWORD2
+setZeroMotionDetectionDuration  KEYWORD2
+getFreeFallDetectionThreshold   KEYWORD2
+setFreeFallDetectionThreshold   KEYWORD2
+getFreeFallDetectionDuration    KEYWORD2
+setFreeFallDetectionDuration    KEYWORD2
+getSleepEnabled KEYWORD2
+setSleepEnabled KEYWORD2
+getI2CMasterModeEnabled KEYWORD2
+setI2CMasterModeEnabled KEYWORD2
+getI2CBypassEnabled KEYWORD2
+setI2CBypassEnabled KEYWORD2
+readTemperature KEYWORD2
+readActivites   KEYWORD2
+getGyroOffsetX  KEYWORD2
+setGyroOffsetX  KEYWORD2
+getGyroOffsetY  KEYWORD2
+setGyroOffsetY  KEYWORD2
+getGyroOffsetZ  KEYWORD2
+setGyroOffsetZ  KEYWORD2
+getAccelOffsetX KEYWORD2
+setAccelOffsetX KEYWORD2
+getAccelOffsetY KEYWORD2
+setAccelOffsetY KEYWORD2
+getAccelOffsetZ KEYWORD2
+setAccelOffsetZ KEYWORD2
+calibrateGyro   KEYWORD2
+setThreshold    KEYWORD2
+getThreshold    KEYWORD2
+readRawGyro KEYWORD2
+readNormalizeGyro   KEYWORD2
+readRawAccel    KEYWORD2
+readNormalizeAccel  KEYWORD2
+readScaledAccel KEYWORD2
+getInertial KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+

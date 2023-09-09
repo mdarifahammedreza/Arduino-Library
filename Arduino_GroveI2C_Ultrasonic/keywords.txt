@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For Arduino_GroveI2C_Ultrasonic
+####################################### 
+# Class
+#######################################
+
+Arduino_GroveI2C_Ultrasonic	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+begin	KEYWORD2
+update	KEYWORD2
+
+getDistance	KEYWORD2
+getMeters	KEYWORD2
+getTravelTime	KEYWORD2
+checkConnection	KEYWORD2
+
+#######################################
+# Constants
+#######################################
+
+ULTRASONIC_ADDRESS LITERAL1
