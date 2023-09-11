@@ -1,0 +1,7 @@
+BowlerCom 				KEYWORD1	BowlerCom
+
+SetChanVal 				KEYWORD2	SetChanVal
+GetChanVal 				KEYWORD2	GetChanVal
+setMode 				KEYWORD2	setMode
+
+startDebugPint 			KEYWORD3	startDebugPint

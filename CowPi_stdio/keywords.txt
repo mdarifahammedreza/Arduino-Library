@@ -1,0 +1,131 @@
+# DATATYPES
+
+cowpi_display_module_t	KEYWORD1
+cowpi_display_module_protocol_t	KEYWORD1
+bit_order_t	KEYWORD1
+stream_data_t	KEYWORD1
+symbol_t	KEYWORD1
+
+# FUNCTIONS
+
+cowpi_stdio_setup	KEYWORD2
+cowpi_add_display_module	KEYWORD2
+cowpi_discover_i2c_address	KEYWORD2
+cowpi_configure_single_pin	KEYWORD2
+cowpi_configure_spi	KEYWORD2
+cowpi_configure_i2c	KEYWORD2
+cowpi_configure_seven_segment_display	KEYWORD2
+cowpi_configure_scrolling_seven_segment_display	KEYWORD2
+cowpi_configure_led_matrix_display	KEYWORD2
+cowpi_configure_lcd_character_display	KEYWORD2
+cowpi_configure_morse_code	KEYWORD2
+
+cowpi_clear_display	KEYWORD2
+cowpi_sleep_display	KEYWORD2
+cowpi_wake_display	KEYWORD2
+
+cowpi_font_ascii_to_5wide_dotmatrix	KEYWORD2
+cowpi_font_ascii_to_8wide_dotmatrix	KEYWORD2
+cowpi_font_ascii_to_narrow_dotmatrix	KEYWORD2
+cowpi_font_get_dotmatrix_width	KEYWORD2
+cowpi_font_string_to_horizontal_dotmatrix	KEYWORD2
+cowpi_font_string_to_vertical_dotmatrix	KEYWORD2
+cowpi_font_transpose_dotmatrix	KEYWORD2
+cowpi_font_ascii_to_7segment	KEYWORD2
+cowpi_font_string_to_7segment	KEYWORD2
+cowpi_font_ascii_to_morse_code	KEYWORD2
+
+cowpi_setup_hd44780	KEYWORD2
+cowpi_hd44780_clear_display	KEYWORD2
+cowpi_hd44780_create_character	KEYWORD2
+cowpi_hd44780_place_character	KEYWORD2
+cowpi_hd44780_place_cursor	KEYWORD2
+cowpi_hd44780_return_home	KEYWORD2
+cowpi_hd44780_send_character	KEYWORD2
+cowpi_hd44780_send_command	KEYWORD2
+cowpi_hd44780_set_backlight	KEYWORD2
+cowpi_hd44780_set_send_halfbyte_function	KEYWORD2
+
+cowpi_setup_max7219	KEYWORD2
+cowpi_max7219_bcd_decode	KEYWORD2
+cowpi_max7219_no_decode	KEYWORD2
+cowpi_max7219_send	KEYWORD2
+cowpi_max7219_set_intensity	KEYWORD2
+cowpi_max7219_shutdown	KEYWORD2
+cowpi_max7219_startup	KEYWORD2
+
+cowpi_use_i2c_bitbang	KEYWORD2
+cowpi_use_i2c_hardware	KEYWORD2
+cowpi_i2c_finalize_bitbang	KEYWORD2
+cowpi_i2c_finalize_hardware	KEYWORD2
+cowpi_i2c_initialize_bitbang	KEYWORD2
+cowpi_i2c_initialize_hardware	KEYWORD2
+cowpi_i2c_transmit_bitbang	KEYWORD2
+cowpi_i2c_transmit_hardware	KEYWORD2
+
+cowpi_use_spi_bitbang	KEYWORD2
+cowpi_use_spi_hardware	KEYWORD2
+cowpi_spi_finalize_bitbang	KEYWORD2
+cowpi_spi_finalize_hardware	KEYWORD2
+cowpi_spi_initialize_bitbang	KEYWORD2
+cowpi_spi_initialize_hardware	KEYWORD2
+cowpi_spi_transmit_bitbang	KEYWORD2
+cowpi_spi_transmit_hardware	KEYWORD2
+
+cowpi_pin_mode	KEYWORD2
+
+
+
+# CODE STRUCTURES
+
+
+
+# CONSTANTS
+
+NO_MODULE	LITERAL1
+SEVEN_SEGMENT	LITERAL1
+LED_MATRIX	LITERAL1
+LCD_CHARACTER	LITERAL1
+OLED_MATRIX	LITERAL1
+MORSE_CODE	LITERAL1
+
+EAST	LITERAL1
+NORTH	LITERAL1
+WEST	LITERAL1
+SOUTH	LITERAL1
+
+HEADS	LITERAL1
+TAILS	LITERAL1
+
+NO_PROTOCOL	LITERAL1
+I2C	LITERAL1
+SPI	LITERAL1
+
+COWPI_DEFAULT	LITERAL1
+ADAFRUIT	LITERAL1
+
+COWPI_LSB_FIRST	LITERAL1
+COWPI_MSB_FIRST	LITERAL1
+
+COWPI_DEFAULT_SPI_DATA_PIN	LITERAL1
+COWPI_DEFAULT_SPI_CLOCK_PIN	LITERAL1
+COWPI_DEFAULT_SPI_SELECT_PIN	LITERAL1
+COWPI_DEFAULT_I2C_DATA_PIN	LITERAL1
+COWPI_DEFAULT_I2C_CLOCK_PIN	LITERAL1
+
+LCDENTRY_CURSORMOVESRIGHT	LITERAL1
+LCDENTRY_CURSORMOVESLEFT	LITERAL1
+LCDENTRY_TEXTSHIFTS	LITERAL1
+LCDENTRY_TEXTNOSHIFT	LITERAL1
+
+LCDONOFF_DISPLAYON	LITERAL1
+LCDONOFF_DISPLAYOFF	LITERAL1
+LCDONOFF_CURSORON	LITERAL1
+LCDONOFF_CURSOROFF	LITERAL1
+LCDONOFF_BLINKON	LITERAL1
+LCDONOFF_BLINKOFF	LITERAL1
+
+LCDSHIFT_DISPLAYLEFT	LITERAL1
+LCDSHIFT_DISPLAYRIGHT	LITERAL1
+LCDSHIFT_CURSORLEFT	LITERAL1
+LCDSHIFT_CURSORRIGHT	LITERAL1

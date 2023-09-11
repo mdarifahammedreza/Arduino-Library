@@ -1,0 +1,78 @@
+{
+  "name": "CowPi_stdio",
+  "version": "0.6.0",
+  "description": "Originally part of the CowPi library, the CowPi_stdio library extracts out a portion that is more-broadly applicable. The CowPi_stdio library allows printing to a serial terminal emulator connected through the microcontroller board's USB port by using printf(), and reading from that serial terminal emulator using scanf(). The CowPi_stdio library also provides file streams that can be used with fprintf() to print to a display module such as an LCD character display or an OLED dot matrix display.",
+  "keywords": [
+    "display",
+    "cowpi",
+    "cow_pi",
+    "printf",
+    "scanf",
+    "fprintf",
+    "stdio",
+    "stdin",
+    "stdout",
+    "displays",
+    "display_modules",
+    "max7219",
+    "led_matrix",
+    "seven_segment",
+    "hd44780",
+    "lcd1602",
+    "lcd2004",
+    "spi",
+    "i2c",
+    "morse_code"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DocBohn/CowPi_stdio"
+  },
+  "authors": {
+    "name": "Christopher Bohn",
+    "email": "bohn@unl.edu",
+    "url": "https://github.com/DocBohn/",
+    "maintainer": true
+  },
+  "license": "Apache-2.0",
+  "frameworks": "Arduino",
+  "platforms": ["atmelavr", "atmelmegaavr", "atmelsam", "nordicnrf52", "raspberrypi"],
+  "headers": "CowPi_stdio.h",
+  "examples": [
+    {
+      "name": "hd44780_blinky",
+      "base": "examples/hd44780_blinky",
+      "files": ["hd44780_blinky.ino"]
+    },
+    {
+      "name": "hd44780_lcd_character",
+      "base": "examples/hd44780_lcd_character",
+      "files": ["hd44780_lcd_character.ino"]
+    },
+    {
+      "name": "max7219_dotmatrix",
+      "base": "examples/max7219_dotmatrix",
+      "files": ["max7219_dotmatrix.ino"]
+    },
+    {
+      "name": "max7219_seven_segment",
+      "base": "examples/max7219_seven_segment",
+      "files": ["max7219_seven_segment.ino"]
+    },
+    {
+      "name": "printf_and_scanf",
+      "base": "examples/printf_and_scanf",
+      "files": ["printf_and_scanf.ino"]
+    },
+    {
+      "name": "printf_limitations",
+      "base": "examples/printf_limitations",
+      "files": ["printf_limitations.ino"]
+    },
+    {
+      "name": "scan_i2c",
+      "base": "examples/scan_i2c",
+      "files": ["scan_i2c.ino"]
+    }
+  ]
+}
