@@ -60,7 +60,7 @@ void setup() {
   Serial.begin(115200);         // set up seriamonitor at 115200 bps
   Serial.setDebugOutput(true);
   Serial.println();
-  Serial.println("*ESP32  Balancing Robot*");
+  Serial.println("*ESP32 Camera Balancing Robot*");
   Serial.println("--------------------------------------------------------");
 
 
